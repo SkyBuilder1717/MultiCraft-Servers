@@ -51,7 +51,7 @@
         }
     };
     function getMultiCraftServersList() {
-        return JSON.parse(httpGet("https://api.codetabs.com/v1/proxy/?quest=https://servers.multicraft.world/list"));
+        return JSON.parse(httpGet("https://api.codetabs.com/v1/proxy/?quest=https://servers.multicraft.world/list.json"));
     };
     function createBlock(type, id, text, argument, func) {
         blocks.push({
