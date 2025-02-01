@@ -18,7 +18,7 @@
                 "blocks": blocks,
                 "menus": {
                     serversList: {
-                        items: ["1", "2", "3", "4"]
+                        items: ["1", "2"]
                     },
                     serverInfos: {
                         items: ["address:port", "name", "description"]
